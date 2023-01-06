@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RetoSophos</string>
+
+
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="login_data">ingresa tus datos aquí</string>
+
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_login_fingerprint">Ingresar con Huella</string>
+
+</resources>
