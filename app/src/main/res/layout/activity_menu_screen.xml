@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Screen"
+    android:background= "#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inicio_menu_screen" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/menu_screen_send_doc"
+        android:ems="10"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:text="@string/editText_menu_screen_send_doc"
+        android:textColor="#FE1191"
+        app:guidelineUseRtl="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/btn_login_fingerprint"
+        android:text="@string/btn_menu_screen_send_doc"
+        android:textColor="#FE1191"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_login_fingerprint"
+        android:ems="10"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:text="@string/editText_menu_screen_view_doc"
+        android:textColor="#4500FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/btn_login_fingerprint"
+        android:text="@string/btn_menu_screen_view_doc"
+        android:textColor="#4500FF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/menu_screen_offices"
+        android:ems="10"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:text="@string/editText_menu_screen_offices"
+        android:textColor="#05667C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="208dp"
+        android:textStyle="bold"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/menu_screen_offices"
+        android:text="@string/btn_menu_screen_offices"
+        android:textColor="#05667C"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName5"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

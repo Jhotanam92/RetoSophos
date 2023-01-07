@@ -9,4 +9,10 @@
     <string name="btn_login">Ingresar</string>
     <string name="btn_login_fingerprint">Ingresar con Huella</string>
 
+    <string name="editText_menu_screen_offices"> Oficinas</string>
+    <string name="editText_menu_screen_send_doc"> Enviar Documentos</string>
+    <string name="editText_menu_screen_view_doc"> Ver Documentos</string>
+    <string name="btn_menu_screen_offices">Ingresar  --></string>
+    <string name="btn_menu_screen_send_doc">Ingresar  --></string>
+    <string name="btn_menu_screen_view_doc">Ingresar  --></string>
 </resources>
