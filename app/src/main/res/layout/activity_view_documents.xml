@@ -4,6 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View_documents">
+    tools:context=".View_documents"
+    android:background= "#FFFFFF">
+
+    <Button
+        android:id="@+id/btn_return_view_doc"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="280dp"
+        android:text="Regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="407dp"
+        android:text="ver documentos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_return_view_doc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

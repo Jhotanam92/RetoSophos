@@ -27,6 +27,8 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/menu_screen_send_doc"
+        android:textSize="20dp"
+        android:padding="13dp"
         android:ems="10"
         android:gravity="left"
         android:textStyle="bold"
@@ -39,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_send_documents"
         android:layout_width="110dp"
         android:layout_height="29dp"
         android:layout_marginStart="208dp"
@@ -66,6 +68,8 @@
         android:background="@drawable/btn_login_fingerprint"
         android:ems="10"
         android:gravity="left"
+        android:textSize="20dp"
+        android:padding="13dp"
         android:textStyle="bold"
         android:inputType="textPersonName"
         android:text="@string/editText_menu_screen_view_doc"
@@ -75,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_view_documents"
         android:layout_width="110dp"
         android:layout_height="29dp"
         android:layout_marginStart="208dp"
@@ -102,6 +106,8 @@
         android:background="@drawable/menu_screen_offices"
         android:ems="10"
         android:gravity="left"
+        android:textSize="20dp"
+        android:padding="13dp"
         android:textStyle="bold"
         android:inputType="textPersonName"
         android:text="@string/editText_menu_screen_offices"
@@ -111,7 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_offices"
         android:layout_width="110dp"
         android:layout_height="29dp"
         android:layout_marginStart="208dp"
@@ -127,5 +133,19 @@
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_menus"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

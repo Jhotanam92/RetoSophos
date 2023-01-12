@@ -4,17 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Send_documents">
+    tools:context=".Send_documents"
+    android:background= "#FFFFFF">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="46dp"
+        android:layout_width="254dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
-        android:text="TextView"
+        android:text="Envio de Documentacion"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_camara"
+        android:layout_width="116dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <Button
+        android:id="@+id/btn_return_send_doc"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="280dp"
+        android:text="Regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_menus"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_upload_photo"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:text="Cargar Foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_camara" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Tomar Foto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_camara" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

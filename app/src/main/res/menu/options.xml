@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Enviar Documentos"
+        android:id="@+id/menu_send_doc"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+    <item android:title="Ver Documentos"
+        android:id="@+id/menu_view_doc"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+    <item android:title="Oficinas"
+        android:id="@+id/menu_offices"
+        android:background="@drawable/menu"
+        android:textColor="#7800FD"
+        android:textStyle="bold"/>
+</menu>
