@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Offices"
+    tools:context=".view.Offices"
     android:background= "#FFFFFF">
 
     <Button
@@ -12,25 +14,26 @@
         android:layout_width="128dp"
         android:layout_height="61dp"
         android:layout_marginTop="1dp"
-        android:layout_marginEnd="280dp"
-        android:text="Regresar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="236dp"
         android:background="@drawable/menu"
+        android:text="Regresar"
         android:textColor="#7800FD"
-        android:textStyle="bold"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="204dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="188dp"
-        android:layout_marginEnd="87dp"
-        android:layout_marginBottom="365dp"
-        android:text="oficinas"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_googlemaps"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Oficinas"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_return_offices_doc" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</fragment>

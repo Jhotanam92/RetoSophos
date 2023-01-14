@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".view.LoginActivity"
     android:background= "#FFFFFF">
 
     <ImageView
@@ -31,37 +31,41 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/etemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_login_fingerprint"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#7800FD"
+        android:textColor="#7800FD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:hint="Email"
-        android:textColorHint="#7800FD"
-        android:background="@drawable/btn_login_fingerprint"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/etpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_login_fingerprint"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#7800FD"
+        android:textColor="#7800FD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName7"
-        android:hint="Password"
-        android:textColorHint="#7800FD"
-        android:background="@drawable/btn_login_fingerprint"/>
+        app:layout_constraintTop_toBottomOf="@id/etemail" />
 
     <Button
         android:id="@+id/btn_login_screen"
@@ -77,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
 
     <Button
         android:id="@+id/btn_fingerprint"
